@@ -7,8 +7,8 @@ type MessageProps = {
      selectedMessage: string
      messageId: string
      setSelectedMessage: () => void
-     isFirstMessage: string
-     isLastMessage: string
+     isFirstMessage: boolean
+     isLastMessage: boolean
 }
 
 function TimeConverter(UNIX_Timestamp: Timestamp) {

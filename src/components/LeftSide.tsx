@@ -14,7 +14,7 @@ import {
      where
 } from 'firebase/firestore'
 import { chatRoom } from '../core/types'
-import { MessageView } from './MessageView'
+import MessageView from './MessageView'
 import Popup from 'reactjs-popup'
 import 'reactjs-popup/dist/index.css'
 import AddUser from './AddUser'
